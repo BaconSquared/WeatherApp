@@ -11,12 +11,9 @@ namespace WeatherApp
     {
         public static string Parse(string input)
         {
-            string parsedInput = "";
-
             JObject joResponse = JObject.Parse(input);
             JObject ojObject = (JObject)joResponse["main"];
             JValue currentTemp = (JValue)ojObject["temp"];
-            //Console.WriteLine(currentTemp);
 
             return Convert.ToString(currentTemp);
         }

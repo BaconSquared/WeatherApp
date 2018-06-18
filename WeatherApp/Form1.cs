@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace WeatherApp
 {
@@ -20,8 +21,9 @@ namespace WeatherApp
         private void submitButton_Click(object sender, EventArgs e)
         {
             RestClient client = new RestClient();
+            string apiKey = ConfigurationManager.AppSettings["weatherAPIKey"];
 
-            client.urlParameters = "?q=" + cityTextBox.Text + "&units=Imperial&APPID=a2c2178747622ea7bca42ae200eb9fc3";
+            client.urlParameters = "?q=" + cityTextBox.Text + "&units=Imperial&APPID=" + apiKey;
 
             string response = client.MakeRequest();
 

@@ -1,7 +1,6 @@
 C:\Users\Matt\source\repos\WeatherApp\WeatherApp\bin\Debug\WeatherApp.exe.config
 C:\Users\Matt\source\repos\WeatherApp\WeatherApp\bin\Debug\WeatherApp.exe
 C:\Users\Matt\source\repos\WeatherApp\WeatherApp\bin\Debug\WeatherApp.pdb
-C:\Users\Matt\source\repos\WeatherApp\WeatherApp\obj\Debug\WeatherApp.csprojAssemblyReference.cache
 C:\Users\Matt\source\repos\WeatherApp\WeatherApp\obj\Debug\WeatherApp.WeatherApp.resources
 C:\Users\Matt\source\repos\WeatherApp\WeatherApp\obj\Debug\WeatherApp.Properties.Resources.resources
 C:\Users\Matt\source\repos\WeatherApp\WeatherApp\obj\Debug\WeatherApp.csproj.GenerateResource.cache
@@ -11,3 +10,4 @@ C:\Users\Matt\source\repos\WeatherApp\WeatherApp\obj\Debug\WeatherApp.pdb
 C:\Users\Matt\source\repos\WeatherApp\WeatherApp\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Matt\source\repos\WeatherApp\WeatherApp\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Matt\source\repos\WeatherApp\WeatherApp\obj\Debug\WeatherApp.csproj.CopyComplete
+C:\Users\Matt\source\repos\WeatherApp\WeatherApp\obj\Debug\WeatherApp.csprojAssemblyReference.cache

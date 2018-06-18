@@ -15,7 +15,6 @@ namespace WeatherApp
         public string urlParameters { get; set; }
 
         private const string URL = "http://api.openweathermap.org/data/2.5/weather";
-        //private string urlParameters = "?city=Chicago,IL&key={d2c76b397d434982aa94ea9182d5dd66}";
 
         public RestClient()
         {
